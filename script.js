@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (mobileToggle) {
         mobileToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-            
+
             // Toggle icon between bars and times (X)
             const icon = mobileToggle.querySelector('i');
             if (navLinks.classList.contains('active')) {
